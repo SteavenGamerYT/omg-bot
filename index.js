@@ -32,6 +32,9 @@ client.on("messageCreate", (message) => {
     if (message.content == "yeah good bot"){
         message.reply("ok, thanks its good from you")
     }
+    if (message.content == "$help"){
+        message.reply("Nothing yet + this Very Basic Bot")
+    }
 })
 
 const welcomeChannelId = "984263301817061457"
